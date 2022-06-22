@@ -63,8 +63,8 @@ hyperparameter search (and it was out of the scope as well).
 
 #### Tempo Estimation
 
-For estimating the tempo we apply the autocorrelation method described in the slides. We auto-
-correlate the smoothed output signal of the onset detector with τ between 60 and 200 BPM. We
+For estimating the tempo we apply the autocorrelation method described in the slides. We 
+autocorrelate the smoothed output signal of the onset detector with τ between 60 and 200 BPM. We
 take the two highest peaks of this autocorrelation signal and report them as the tempo.
 
 #### Beat Tracking
@@ -85,5 +85,5 @@ worsen the performance.
 In Proceedings of the IEEE International Conference on Acoustics, Speech and
 Signal Processing (ICASSP), pages 6979–6983, 2014.
 
-[^2]: ] Daniel P.W. Ellis. Beat Tracking by Dynamic Programming. 2017
-https://www.ee.columbia.edu/ dpwe/pubs/Ellis07-beattrack.pdf
+[^2]: Daniel P.W. Ellis. Beat Tracking by Dynamic Programming. 2017
+https://www.ee.columbia.edu/~dpwe/pubs/Ellis07-beattrack.pdf
